@@ -1,0 +1,12 @@
+save/
+data/
+*.swp
+__pycache__/
+*.pyc
+*.jpg
+*.ipynb
+*.pth
+*.json
+*.sh
+.ipynb_checkpoints/
+jupyter_notebook/
