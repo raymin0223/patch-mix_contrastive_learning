@@ -1,0 +1,7 @@
+Elements contained in the filenames:
+
+Patient number (101,102,...,226)
+Recording index
+Chest location (Trachea (Tc), {Anterior (A), Posterior (P), Lateral (L)}{left (l), right (r)})
+Acquisition mode (sequential/single channel (sc), simultaneous/multichannel (mc))
+Recording equipment (AKG C417L Microphone, 3M Littmann Classic II SE Stethoscope, 3M Litmmann 3200 Electronic Stethoscope, WelchAllyn Meditron Master Elite Electronic Stethoscope)
