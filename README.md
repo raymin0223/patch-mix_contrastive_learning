@@ -3,7 +3,7 @@
 
 
 <p align="center">
-<img width="300" src=https://github.com/raymin0223/patch-mix_contrastive_learning/files/11528013/final_overview.pdf>
+<img width="300" src="https://github.com/raymin0223/patch-mix_contrastive_learning/files/11543867/final_overview.pdf">
 </p>
 
 **Patch-Mix Contrastive Learning with Audio Spectrogram Transformer on Respiratory Sound Classification**<br/>
