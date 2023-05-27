@@ -1,5 +1,5 @@
 # Patch-Mix Contrastive Learning (INTERSPEECH 2023)
-[arXiv] | [BibTeX]
+[arXiv](https://arxiv.org/abs/2305.14032) | [BibTeX](#bibtex)
 
 
 <p align="center">
@@ -79,7 +79,12 @@ Patch-Mix Contrastive Learning achieves the state-of-the-art performance of 62.3
 If you find this repo useful for your research, please consider citing our paper:
 
 ```
-Will be released soon
+@article{bae2023patch,
+  title={Patch-Mix Contrastive Learning with Audio Spectrogram Transformer on Respiratory Sound Classification},
+  author={Bae, Sangmin and Kim, June-Woo and Cho, Won-Yang and Baek, Hyerim and Son, Soyoun and Lee, Byungjo and Ha, Changwan and Tae, Kyongpil and Kim, Sungnyun and Yun, Se-Young},
+  journal={arXiv preprint arXiv:2305.14032},
+  year={2023}
+}
 ```
 
 ## Contact
