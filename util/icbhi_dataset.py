@@ -46,8 +46,9 @@ class ICBHIDataset(Dataset):
         # ==========================================================================
         """ get ICBHI dataset meta information """
         # store stethoscope device information for each file or patient
-        device_id, self.device_to_id = 0, {}
-        self.device_id_to_patient, self.file_to_device = {}, {}
+        self.file_to_device = {}
+        self.device_to_id = {'Meditron': 0, 'LittC2SE': 1, 'Litt3200': 2, 'AKGC417L': 3}
+        self.device_id_to_patient = {0: [], 1: [], 2: [], 3: []}
 
         filenames = os.listdir(data_folder)
         filenames =set([f.strip().split('.')[0] for f in filenames if '.wav' in f or '.txt' in f])
@@ -59,8 +60,6 @@ class ICBHIDataset(Dataset):
             #     self.device_to_id[device] = device_id
             #     self.device_id_to_patient[device_id] = []
             #     device_id += 1
-            self.device_to_id = {'Meditron': 0, 'LittC2SE': 1, 'Litt3200': 2, 'AKGC417L': 3}
-            self.device_id_to_patient = {0: [], 1: [], 2: [], 3: []}
             
             # get the device information for each wav file
             self.file_to_device[f.strip().split('.')[0]] = self.device_to_id[device]
