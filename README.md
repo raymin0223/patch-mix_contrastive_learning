@@ -1,5 +1,5 @@
 # Patch-Mix Contrastive Learning (INTERSPEECH 2023)
-[arXiv](https://arxiv.org/abs/2305.14032) | [BibTeX](#bibtex)
+[arXiv](https://arxiv.org/abs/2305.14032) | [Conference](https://www.isca-archive.org/interspeech_2023/bae23b_interspeech.html#) | [BibTeX](#bibtex)
 
 
 <p align="center">
@@ -79,14 +79,17 @@ Patch-Mix Contrastive Learning achieves the state-of-the-art performance of 62.3
 If you find this repo useful for your research, please consider citing our paper:
 
 ```
-@article{bae2023patch,
-  title={Patch-Mix Contrastive Learning with Audio Spectrogram Transformer on Respiratory Sound Classification},
-  author={Bae, Sangmin and Kim, June-Woo and Cho, Won-Yang and Baek, Hyerim and Son, Soyoun and Lee, Byungjo and Ha, Changwan and Tae, Kyongpil and Kim, Sungnyun and Yun, Se-Young},
-  journal={arXiv preprint arXiv:2305.14032},
-  year={2023}
+@inproceedings{bae23b_interspeech,
+  title     = {Patch-Mix Contrastive Learning with Audio Spectrogram Transformer on Respiratory Sound Classification},
+  author    = {Sangmin Bae and June-Woo Kim and Won-Yang Cho and Hyerim Baek and Soyoun Son and Byungjo Lee and Changwan Ha and Kyongpil Tae and Sungnyun Kim and Se-Young Yun},
+  year      = {2023},
+  booktitle = {INTERSPEECH 2023},
+  pages     = {5436--5440},
+  doi       = {10.21437/Interspeech.2023-1426},
+  issn      = {2958-1796},
 }
 ```
 
 ## Contact
 - Sangmin Bae: bsmn0223@kaist.ac.kr
-- June-Woo Kim: kaen2891@knu.ac.kr
+- June-Woo Kim: kaen2891@gmail.com
